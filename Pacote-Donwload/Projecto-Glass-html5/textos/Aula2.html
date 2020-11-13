@@ -1,0 +1,52 @@
+<HTML><HEAD><TITLE>Formulario</TITLE></HEAD>
+<BODY BGCOLOR=”#FFFFF” BACKGROUND=”3.jpg”>
+<P ALIGN=”center”><FONT FACE=”Arial Rounded MT
+                        Bold,
+                        Bookman Old Style, Brush Script” COLOR=”#eeeeee”
+                        SIZE=”5">Exemplo de Objetos de Formul&aacute;rio
+</FONT></P>
+<FORM METHOD=”post”
+      ACTION=”http://www.dominio.com.br/cgi-bin/
+enviarform.cgi”>
+    <INPUT TYPE=”hidden” NAME=”emaildestino”
+           VALUE=”adilson@ziq.com.br”>
+    <INPUT TYPE=”hidden” NAME=”resposta”
+           VALUE=”grato.htm”>
+    <P><B>Nome</B>:
+        <INPUT TYPE=”text” NAME=”nome” SIZE=”1">
+    </P>
+    <P><B>E-mail</B>:
+        <INPUT TYPE=”text” NAME=”campoemail” SIZE=”30">
+    </P>
+    <P><B>Data da nascimento</B>:
+        <SELECT NAME=”data” SIZE=”1">
+            <OPTION SELECTED>01
+            <OPTION>02
+            <OPTION>03
+            <OPTION>04
+            <OPTION>80
+        </SELECT>
+        <SELECT name=”mes”>
+            <OPTION SELECTED>Janeiro
+            <OPTION>Fevereiro
+            <OPTION>Mar&ccedil;o
+        </SELECT>
+        <INPUT TYPE=”text” NAME=”ano” MAXLENGTH=”4”SIZE=”6"></P>
+    <P><B>Op&ccedil;&otilde;es de uso da Internet<B>:
+        <INPUT TYPE=”radio” NAME=”opcao”
+               VALUE=”estudo”>Estudo
+        <INPUT TYPE=”radio” NAME=”opcao”
+               VALUE=”pesquisa”>Pesquisa
+        <INPUT TYPE=”radio” NAME=”opcao”
+               VALUE=”trabalho”>Trabalho
+        <INPUT TYPE=”radio” NAME=”opcao” VALUE=”lazer”
+               CHECKED>Lazer</P>
+    <P><B>Coment&aacute;rios</B>:
+<TEXTAREA NAME=”comentarios” COLS=”50"
+          ROWS=”3"></TEXTAREA></P>
+    <P>
+        <INPUT TYPE=”submit” NAME=”enviar”
+               VALUE=”Enviar”>
+        <INPUT TYPE=”reset” NAME=”apagar”
+               VALUE=”Redefinir”></P>
+</FORM></BODY></html>
