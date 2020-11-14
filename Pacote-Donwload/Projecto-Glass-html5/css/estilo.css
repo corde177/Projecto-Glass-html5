@@ -21,7 +21,7 @@ header#cabecalho img#icone{
 header#cabecalho {
   border-bottom: 1px #606060 solid;
   height: 150px;
-  background: url("/img/glass-logo-peq.jpg") no-repeat 0px 80px;
+  background: url("/Pacote-Donwload/Projecto-Glass-html5/img/glass-logo-peq.jpg") no-repeat 0px 80px;
 }
 header#cabecalho h1 {
   font-family: 'FonteLogo', sans-serif;

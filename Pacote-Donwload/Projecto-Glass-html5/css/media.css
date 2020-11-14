@@ -4,7 +4,7 @@ div#tv-radio{
 width: 900px;
 height: 580px;
 margin: auto;
-background: url('../img/radio-tv.png') no-repeat;
+background: url('/Pacote-Donwload/Projecto-Glass-html5/img/radio-tv.png') no-repeat;
 }
 audio#musica{
 display: block;

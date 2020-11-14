@@ -29,14 +29,14 @@ width: 150px;
 }
 
 fieldset#usuario{
- background: url('/img/icone-contato.png')no-repeat 95% 95%;      
+ background: url('/Pacote-Donwload/Projecto-Glass-html5/img/icone-contato.png')no-repeat 95% 95%;      
 }
 fieldset#endereco{
-background: url('/img/icone-endereco.png')no-repeat 95% 95%;      
+background: url('/Pacote-Donwload/Projecto-Glass-html5/img/icone-endereco.png')no-repeat 95% 95%;      
 }
 fieldset#mensagem{
-    background: url('/img/icone-mensagem.png')no-repeat 95% 95%;      
+    background: url('/Pacote-Donwload/Projecto-Glass-html5/img/icone-mensagem.png')no-repeat 95% 95%;      
 }
 fieldset#pedido{
-    background: url('/img/icone-pagamento.png')no-repeat 95% 95%;      
+    background: url('/Pacote-Donwload/Projecto-Glass-html5/img/icone-pagamento.png')no-repeat 95% 95%;      
 }
